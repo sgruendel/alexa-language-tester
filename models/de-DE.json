@@ -1,0 +1,197 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "sprachentester",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "CountryIntent",
+          "slots": [
+            {
+              "name": "country_f",
+              "type": "LIST_OF_COUNTRIES_F"
+            },
+            {
+              "name": "country_m",
+              "type": "LIST_OF_COUNTRIES_M"
+            }
+          ],
+          "samples": [
+            "{country_f}",
+            "{country_m}",
+            "als {country_m}",
+            "als {country_f}",
+            "sprich als {country_m}",
+            "sprich als {country_f}",
+            "sprich wie ein {country_m}",
+            "sprich wie eine {country_f}",
+            "rede als {country_m}",
+            "rede als {country_f}",
+            "rede wie ein {country_m}",
+            "rede wie eine {country_f}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "name": "LIST_OF_COUNTRIES_F",
+          "values": [
+            {
+              "id": "en-US",
+              "name": {
+                "value": "Amerikanerin"
+              }
+            },
+            {
+              "id": "en-AU",
+              "name": {
+                "value": "Australierin"
+              }
+            },
+            {
+              "id": "en-GB",
+              "name": {
+                "value": "Britin",
+                "synonyms": [
+                  "Engländerin"
+                ]
+              }
+            },
+            {
+              "id": "en-IN",
+              "name": {
+                "value": "Inderin"
+              }
+            },
+            {
+              "id": "de-DE",
+              "name": {
+                "value": "Deutsche"
+              }
+            },
+            {
+              "id": "es-ES",
+              "name": {
+                "value": "Spanierin"
+              }
+            },
+            {
+              "id": "it-IT",
+              "name": {
+                "value": "Italienerin"
+              }
+            },
+            {
+              "id": "ja-JP",
+              "name": {
+                "value": "Japanerin"
+              }
+            },
+            {
+              "id": "fr-FR",
+              "name": {
+                "value": "Französin"
+              }
+            }
+          ]
+        },
+        {
+          "name": "LIST_OF_COUNTRIES_M",
+          "values": [
+            {
+              "id": "en-US",
+              "name": {
+                "value": "Amerikaner"
+              }
+            },
+            {
+              "id": "en-AU",
+              "name": {
+                "value": "Australier"
+              }
+            },
+            {
+              "id": "en-GB",
+              "name": {
+                "value": "Brite",
+                "synonyms": [
+                  "Engländer"
+                ]
+              }
+            },
+            {
+              "id": "de-DE",
+              "name": {
+                "value": "Deutscher"
+              }
+            },
+            {
+              "id": "es-ES",
+              "name": {
+                "value": "Spanier"
+              }
+            },
+            {
+              "id": "it-IT",
+              "name": {
+                "value": "Italiener"
+              }
+            },
+            {
+              "id": "ja-JP",
+              "name": {
+                "value": "Japaner"
+              }
+            },
+            {
+              "id": "fr-FR",
+              "name": {
+                "value": "Franzose"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "CountryIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "country_m",
+              "type": "LIST_OF_COUNTRIES_M",
+              "elicitationRequired": false,
+              "confirmationRequired": false,
+              "prompts": {}
+            },
+            {
+              "name": "country_f",
+              "type": "LIST_OF_COUNTRIES_F",
+              "elicitationRequired": false,
+              "confirmationRequired": false,
+              "prompts": {}
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

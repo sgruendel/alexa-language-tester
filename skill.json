@@ -1,0 +1,45 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "de-DE": {
+          "summary": "Alexa redet mit verschiedenen weiblichen und männlichen Stimmen in unterschiedlichen Sprachen",
+          "examplePhrases": [
+            "Alexa, öffne Sprachentester",
+            "Alexa, öffne Sprachentester und sprich als Italiener",
+            "Alexa, öffne Sprachentester und rede wie eine Französin"
+          ],
+          "keywords": [
+            "stimmen",
+            "sprache",
+            "sprachausgabe"
+          ],
+          "name": "Sprachentester",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/6409/e6ad9c311a9c4cc9ba69034352a3ecd7/APP_ICON?versionId=T1dJKKJo2xe1.b.IBEKUwIMnsH5OCuBw&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1543064777&Signature=7WRacQOJ8OPS8QPMzFf5O3aDeCk%3D",
+          "description": "Lass' Alexa mit verschiedenen weiblichen und männlichen Stimmen in unterschiedlichen Sprachen reden, Aufruf über\n\"Alexa, öffne Sprachentester und sprich als Italiener\"\n\nEs werden folgende Nationalitäten unterstützt: Deutscher oder Deutsche, Amerikaner oder Amerikanerin, Australier oder Australierin, Brite oder Britin, Inderin, Spanier oder Spanierin, Italiener oder Italienerin, Japaner oder Japanerin, Franzose oder Französin\n\nVerbesserungsvorschläge und Feedback gerne unter https://github.com/sgruendel/alexa-language-tester/issues/new.",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/fa1a/858bd0beeb12426fa0e96bfc632f30a8/APP_ICON_LARGE?versionId=dva5DLGGtaWXwIjW5lLJ5JenwmGYhmIS&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1543064777&Signature=y8MT09ijUKyCeMDeowy%2BZrZItAY%3D"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "No special requirements.",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "./src"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
