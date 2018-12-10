@@ -118,17 +118,17 @@ const CountryIntentHandler = {
         const country_m = getCountryRPA(slots.country_m);
 
         logger.info('country f/m value', country_f || country_m);
+        var speechOutput;
         if (!country_f && !country_m) {
-            return handlerInput.responseBuilder
-                .speak(requestAttributes.t('UNKNOWN_COUNTRY'))
-                .getResponse();
+            speechOutput = requestAttributes.t('UNKNOWN_COUNTRY');
         } else if (country_f) {
-            return handlerInput.responseBuilder
-                .speak(utils.getFemaleSpeechOutputFor(requestAttributes.t('NATIONALITY_FEMALE', country_f.name), country_f.id))
-                .getResponse();
+            speechOutput = utils.getFemaleSpeechOutputFor(requestAttributes.t('NATIONALITY_FEMALE', country_f.name), country_f.id);
+        } else {
+            speechOutput = utils.getMaleSpeechOutputFor(requestAttributes.t('NATIONALITY_MALE', country_m.name), country_m.id);
         }
+        logger.info(speechOutput);
         return handlerInput.responseBuilder
-            .speak(utils.getMaleSpeechOutputFor(requestAttributes.t('NATIONALITY_MALE', country_m.name), country_m.id))
+            .speak(speechOutput)
             .getResponse();
     },
 };
