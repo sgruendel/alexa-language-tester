@@ -1,0 +1,324 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "language tester",
+      "intents": [
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "CountryIntent",
+          "slots": [
+            {
+              "name": "country_f",
+              "type": "LIST_OF_COUNTRIES_F"
+            },
+            {
+              "name": "country_m",
+              "type": "LIST_OF_COUNTRIES_M"
+            }
+          ],
+          "samples": [
+            "{country_f}",
+            "{country_m}",
+            "as {country_m}",
+            "as {country_f}",
+            "as a {country_m}",
+            "as a {country_f}",
+            "as an {country_m}",
+            "as an {country_f}",
+            "speak as {country_m}",
+            "speak as {country_f}",
+            "speak as a {country_m}",
+            "speak as a {country_f}",
+            "speak as an {country_m}",
+            "speak as an {country_f}",
+            "speak like a {country_m}",
+            "speak like a {country_f}",
+            "speak like an {country_m}",
+            "speak like an {country_f}",
+            "talk as {country_m}",
+            "talk as {country_f}",
+            "talk as a {country_m}",
+            "talk as a {country_f}",
+            "talk as an {country_m}",
+            "talk as an {country_f}",
+            "talk like a {country_m}",
+            "talk like a {country_f}",
+            "talk like an {country_m}",
+            "talk like an {country_f}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "name": "LIST_OF_COUNTRIES_F",
+          "values": [
+            {
+              "id": "en-US",
+              "name": {
+                "value": "American woman",
+                "synonyms": [
+                  "American gal",
+                  "U. S. woman",
+                  "U. S. gal",
+                  "woman from America",
+                  "gal from America",
+                  "woman from U. S.",
+                  "gal from U. S.",
+                  "woman from the U. S.",
+                  "gal from the U. S."
+                ]
+              }
+            },
+            {
+              "id": "en-AU",
+              "name": {
+                "value": "Australian woman",
+                "synonyms": [
+                  "Australian gal",
+                  "woman from Australia",
+                  "gal from Australia"
+                ]
+              }
+            },
+            {
+              "id": "en-GB",
+              "name": {
+                "value": "British woman",
+                "synonyms": [
+                  "British gal",
+                  "U. K. woman",
+                  "U. K. gal",
+                  "woman from Great Britain",
+                  "gal from Great Britain",
+                  "woman from Britain",
+                  "gal from Britain",
+                  "woman from U. K.",
+                  "gal from U. K.",
+                  "woman from the U. K.",
+                  "gal from the U. K."
+                ]
+              }
+            },
+            {
+              "id": "en-IN",
+              "name": {
+                "value": "Indian woman",
+                "synonyms": [
+                  "Indian gal",
+                  "woman from India",
+                  "gal from India"
+                ]
+              }
+            },
+            {
+              "id": "de-DE",
+              "name": {
+                "value": "German woman",
+                "synonyms": [
+                  "German gal",
+                  "woman from Germany",
+                  "gal from Germany"
+                ]
+              }
+            },
+            {
+              "id": "es-ES",
+              "name": {
+                "value": "Spanish woman",
+                "synonyms": [
+                  "Spanish gal",
+                  "woman from Spain",
+                  "gal from Spain"
+                ]
+              }
+            },
+            {
+              "id": "fr-FR",
+              "name": {
+                "value": "French woman",
+                "synonyms": [
+                  "French gal",
+                  "woman from France",
+                  "gal from France"
+                ]
+              }
+            },
+            {
+              "id": "it-IT",
+              "name": {
+                "value": "Italian woman",
+                "synonyms": [
+                  "Italian gal",
+                  "woman from Italy",
+                  "gal from Italy"
+                ]
+              }
+            },
+            {
+              "id": "ja-JP",
+              "name": {
+                "value": "Japanese woman",
+                "synonyms": [
+                  "Japanese gal",
+                  "woman from Japan",
+                  "gal from Japan"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "LIST_OF_COUNTRIES_M",
+          "values": [
+            {
+              "id": "en-US",
+              "name": {
+                "value": "American man",
+                "synonyms": [
+                  "American guy",
+                  "U. S. man",
+                  "U. S. guy",
+                  "man from America",
+                  "guy from America",
+                  "man from U. S.",
+                  "guy from U. S.",
+                  "man from the U. S.",
+                  "guy from the U. S."
+                ]
+              }
+            },
+            {
+              "id": "en-AU",
+              "name": {
+                "value": "Australian man",
+                "synonyms": [
+                  "Australian guy",
+                  "man from Australia",
+                  "guy from Australia"
+                ]
+              }
+            },
+            {
+              "id": "en-GB",
+              "name": {
+                "value": "British man",
+                "synonyms": [
+                  "British guy",
+                  "U. K. man",
+                  "U. K. guy",
+                  "man from Great Britain",
+                  "guy from Great Britain",
+                  "man from Britain",
+                  "guy from Britain",
+                  "man from U. K.",
+                  "guy from U. K.",
+                  "man from the U. K.",
+                  "guy from the U. K."
+                ]
+              }
+            },
+            {
+              "id": "de-DE",
+              "name": {
+                "value": "German man",
+                "synonyms": [
+                  "German guy",
+                  "man from Germany",
+                  "guy from Germany"
+                ]
+              }
+            },
+            {
+              "id": "es-ES",
+              "name": {
+                "value": "Spanish man",
+                "synonyms": [
+                  "Spanish guy",
+                  "man from Spain",
+                  "guy from Spain"
+                ]
+              }
+            },
+            {
+              "id": "fr-FR",
+              "name": {
+                "value": "French man",
+                "synonyms": [
+                  "French guy",
+                  "man from France",
+                  "guy from France"
+                ]
+              }
+            },
+            {
+              "id": "it-IT",
+              "name": {
+                "value": "Italian man",
+                "synonyms": [
+                  "Italian guy",
+                  "man from Italy",
+                  "guy from Italy"
+                ]
+              }
+            },
+            {
+              "id": "ja-JP",
+              "name": {
+                "value": "Japanese man",
+                "synonyms": [
+                  "Japanese guy",
+                  "man from Japan",
+                  "guy from Japan"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "CountryIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "country_m",
+              "type": "LIST_OF_COUNTRIES_M",
+              "confirmationRequired": false,
+              "elicitationRequired": false,
+              "prompts": {}
+            },
+            {
+              "name": "country_f",
+              "type": "LIST_OF_COUNTRIES_F",
+              "confirmationRequired": false,
+              "elicitationRequired": false,
+              "prompts": {}
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

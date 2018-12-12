@@ -5,22 +5,37 @@
       "was_cloned": false,
       "resources": {
         "manifest": {
-          "eTag": "1ef67ff0df5a74e47a6770096ae95dce"
+          "eTag": "f005f7184bf96779e6b582f3303846da"
         },
         "interactionModel": {
           "de-DE": {
-            "eTag": "e3abf8b28a3d5a4501b18c63b922d7c1"
+            "eTag": "6500496586d33a993ec9284df562f5f6"
+          },
+          "en-US": {
+            "eTag": "e89e9579189d20f46ce01258e89c659a"
+          },
+          "en-CA": {
+            "eTag": "e89e9579189d20f46ce01258e89c659a"
+          },
+          "en-IN": {
+            "eTag": "e89e9579189d20f46ce01258e89c659a"
+          },
+          "en-AU": {
+            "eTag": "e89e9579189d20f46ce01258e89c659a"
+          },
+          "en-GB": {
+            "eTag": "e89e9579189d20f46ce01258e89c659a"
           }
         },
         "lambda": [
           {
-            "arn": "arn:aws:lambda:eu-west-1:467353799488:function:languageTester:2",
+            "arn": "arn:aws:lambda:eu-west-1:467353799488:function:languageTester:3",
             "awsRegion": "eu-west-1",
             "functionName": "languageTester",
             "alexaUsage": [
               "custom/default"
             ],
-            "revisionId": "6dfdcedb-ac0a-4192-89ae-3f35d67c3970"
+            "revisionId": "128ba53f-ff9b-4319-9292-2aa402a7329d"
           }
         ]
       },
@@ -29,7 +44,7 @@
           "apis": {
             "custom": {
               "endpoint": {
-                "uri": "arn:aws:lambda:eu-west-1:467353799488:function:languageTester:2"
+                "uri": "arn:aws:lambda:eu-west-1:467353799488:function:languageTester:3"
               }
             }
           }

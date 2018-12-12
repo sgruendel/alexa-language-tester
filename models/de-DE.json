@@ -91,6 +91,12 @@
               }
             },
             {
+              "id": "fr-FR",
+              "name": {
+                "value": "Französin"
+              }
+            },
+            {
               "id": "it-IT",
               "name": {
                 "value": "Italienerin"
@@ -100,12 +106,6 @@
               "id": "ja-JP",
               "name": {
                 "value": "Japanerin"
-              }
-            },
-            {
-              "id": "fr-FR",
-              "name": {
-                "value": "Französin"
               }
             }
           ]
@@ -147,6 +147,12 @@
               }
             },
             {
+              "id": "fr-FR",
+              "name": {
+                "value": "Franzose"
+              }
+            },
+            {
               "id": "it-IT",
               "name": {
                 "value": "Italiener"
@@ -156,12 +162,6 @@
               "id": "ja-JP",
               "name": {
                 "value": "Japaner"
-              }
-            },
-            {
-              "id": "fr-FR",
-              "name": {
-                "value": "Franzose"
               }
             }
           ]

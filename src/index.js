@@ -28,8 +28,7 @@ const languageStrings = {
             HELP_MESSAGE: 'Ich kann mit verschiedenen weiblichen und männlichen Stimmen in unterschiedlichen Sprachen reden, z.B. als Deutscher oder Deutsche, Amerikaner oder Amerikanerin, Australier oder Australierin, Brite oder Britin, Inderin, Spanier oder Spanierin, Italiener oder Italienerin, Japaner oder Japanerin, Franzose oder Französin. Welche Stimme soll ich benutzen?',
             HELP_REPROMPT: 'Welche Nationalität soll ich benutzen: Deutscher oder Deutsche, Amerikaner oder Amerikanerin, Australier oder Australierin, Brite oder Britin, Inderin, Spanier oder Spanierin, Italiener oder Italienerin, Japaner oder Japanerin, Franzose oder Französin?',
             STOP_MESSAGE: '<say-as interpret-as="interjection">bis dann</say-as>.',
-            NATIONALITY_FEMALE: 'So klingt es wenn eine %s spricht',
-            NATIONALITY_MALE: 'So klingt es wenn ein %s spricht',
+            NATIONALITY: 'So klingt es wenn %s spricht',
             WHICH_NATIONALITY: 'Als wer soll ich reden?',
             UNKNOWN_COUNTRY: 'Ich kenne diese Nationalität leider nicht.',
             NOT_UNDERSTOOD_MESSAGE: 'Entschuldigung, das verstehe ich nicht. Bitte wiederhole das?',
@@ -37,38 +36,13 @@ const languageStrings = {
     },
     en: {
         translation: {
-            HELP_MESSAGE: 'I can talk with various female and male voices in different languages, e.g. as German man/woman, American man/woman, Australian man/woman, British man/woman, Indian woman, Italian man/woman, French man/woman. Which voice should I use?',
-            HELP_REPROMPT: 'Which voice should I use: German man/woman, American man/woman, Australian man/woman, British man/woman, Indian woman, Italian man/woman, French man/woman?',
+            HELP_MESSAGE: 'I can talk with various female and male voices in different languages, e.g. as German man/woman, American man/woman, Australian man/woman, British man/woman, Indian woman, Spanish man/woman, Italian man/woman, Japanese man/woman, French man/woman. Which voice should I use?',
+            HELP_REPROMPT: 'Which voice should I use: German man/woman, American man/woman, Australian man/woman, British man/woman, Indian woman, Spanish man/woman, Italian man/woman, Japanese man/woman, French man/woman?',
             STOP_MESSAGE: 'See you soon!',
-            NATIONALITY_FEMALE: "Here's what a %s sounds like",
-            NATIONALITY_MALE: "Here's what a %s sounds like",
+            NATIONALITY: "Here's what %s sounds like",
             WHICH_NATIONALITY: 'Which voice should I use?',
             UNKNOWN_COUNTRY: "I don't know this voice.",
             NOT_UNDERSTOOD_MESSAGE: 'Sorry, I don\'t understand. Please say again?',
-        },
-    },
-    fr: {
-        translation: {
-            HELP_MESSAGE: 'Ich kann mit verschiedenen weiblichen und männlichen Stimmen in unterschiedlichen Sprachen reden, z.B. als Deutscher oder Deutsche, Amerikaner oder Amerikanerin, Australier oder Australierin, Brite oder Britin, Inderin, Italiener oder Italienerin, Franzose oder Französin. Welche Stimme soll ich benutzen?',
-            HELP_REPROMPT: 'Welche Nationalität soll ich benutzen: Deutscher oder Deutsche, Amerikaner oder Amerikanerin, Australier oder Australierin, Brite oder Britin, Inderin, Italiener oder Italienerin, Japaner oder Japanerin, Franzose oder Französin?',
-            STOP_MESSAGE: '<say-as interpret-as="interjection">bis dann</say-as>.',
-            NATIONALITY_FEMALE: "Here's what a %s sounds like",
-            NATIONALITY_MALE: "Here's what a %s sounds like",
-            WHICH_NATIONALITY: 'Als wer soll ich reden?',
-            UNKNOWN_COUNTRY: 'Ich kenne diese Nationalität leider nicht.',
-            NOT_UNDERSTOOD_MESSAGE: 'Entschuldigung, das verstehe ich nicht. Bitte wiederhole das?',
-        },
-    },
-    it: {
-        translation: {
-            HELP_MESSAGE: 'Ich kann mit verschiedenen weiblichen und männlichen Stimmen in unterschiedlichen Sprachen reden, z.B. als Deutscher oder Deutsche, Amerikaner oder Amerikanerin, Australier oder Australierin, Brite oder Britin, Inderin, Italiener oder Italienerin, Franzose oder Französin. Welche Stimme soll ich benutzen?',
-            HELP_REPROMPT: 'Welche Nationalität soll ich benutzen: Deutscher oder Deutsche, Amerikaner oder Amerikanerin, Australier oder Australierin, Brite oder Britin, Inderin, Italiener oder Italienerin, Japaner oder Japanerin, Franzose oder Französin?',
-            STOP_MESSAGE: '<say-as interpret-as="interjection">bis dann</say-as>.',
-            NATIONALITY_FEMALE: "Here's what a %s sounds like",
-            NATIONALITY_MALE: "Here's what a %s sounds like",
-            WHICH_NATIONALITY: 'Als wer soll ich reden?',
-            UNKNOWN_COUNTRY: 'Ich kenne diese Nationalität leider nicht.',
-            NOT_UNDERSTOOD_MESSAGE: 'Entschuldigung, das verstehe ich nicht. Bitte wiederhole das?',
         },
     },
 };
@@ -93,6 +67,15 @@ function getCountryRPA(slot) {
         }
     }
     return undefined;
+}
+
+function getNationality(requestAttributes, locale, name, isFemale) {
+    if (locale.startsWith('de')) {
+        name = (isFemale ? 'eine ' : 'ein ') + name;
+    } else if (locale.startsWith('en')) {
+        name = (name.match(/^[aAeEiIoOuU]/) ? 'an ' : 'a ') + name;
+    }
+    return requestAttributes.t('NATIONALITY', name);
 }
 
 const CountryIntentHandler = {
@@ -122,9 +105,15 @@ const CountryIntentHandler = {
         if (!country_f && !country_m) {
             speechOutput = requestAttributes.t('UNKNOWN_COUNTRY');
         } else if (country_f) {
-            speechOutput = utils.getFemaleSpeechOutputFor(requestAttributes.t('NATIONALITY_FEMALE', country_f.name), country_f.id);
+            speechOutput =
+                utils.getFemaleSpeechOutputFor(
+                    getNationality(requestAttributes, request.locale, country_f.name, true),
+                    country_f.id);
         } else {
-            speechOutput = utils.getMaleSpeechOutputFor(requestAttributes.t('NATIONALITY_MALE', country_m.name), country_m.id);
+            speechOutput =
+                utils.getMaleSpeechOutputFor(
+                    getNationality(requestAttributes, request.locale, country_m.name, false),
+                    country_m.id);
         }
         logger.info(speechOutput);
         return handlerInput.responseBuilder

@@ -15,9 +15,94 @@
             "sprachausgabe"
           ],
           "name": "Sprachentester",
-          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/6409/e6ad9c311a9c4cc9ba69034352a3ecd7/APP_ICON?versionId=T1dJKKJo2xe1.b.IBEKUwIMnsH5OCuBw&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1543064777&Signature=7WRacQOJ8OPS8QPMzFf5O3aDeCk%3D",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/6409/e6ad9c311a9c4cc9ba69034352a3ecd7/APP_ICON?versionId=T1dJKKJo2xe1.b.IBEKUwIMnsH5OCuBw&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1544624809&Signature=5GJ9mcLbQsoqi8%2BBGObgNmE96bo%3D",
           "description": "Dieser Skill kann mit verschiedenen weiblichen und männlichen Stimmen in unterschiedlichen Sprachen reden, Aufruf über\n\"Alexa, öffne Sprachentester und sprich als Italiener\"\n\nEs werden folgende Nationalitäten unterstützt: Deutscher oder Deutsche, Amerikaner oder Amerikanerin, Australier oder Australierin, Brite oder Britin, Inderin, Spanier oder Spanierin, Italiener oder Italienerin, Japaner oder Japanerin, Franzose oder Französin\n\nVerbesserungsvorschläge und Feedback gerne unter https://github.com/sgruendel/alexa-language-tester/issues/new.",
-          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/fa1a/858bd0beeb12426fa0e96bfc632f30a8/APP_ICON_LARGE?versionId=dva5DLGGtaWXwIjW5lLJ5JenwmGYhmIS&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1543064777&Signature=y8MT09ijUKyCeMDeowy%2BZrZItAY%3D"
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/fa1a/858bd0beeb12426fa0e96bfc632f30a8/APP_ICON_LARGE?versionId=dva5DLGGtaWXwIjW5lLJ5JenwmGYhmIS&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1544624809&Signature=SBc662SKfZ4YvLVMAofi4Do7HFI%3D"
+        },
+        "en-US": {
+          "summary": "Alexa talks with various male and female voices in different languages",
+          "examplePhrases": [
+            "Alexa, open voice tester",
+            "Alexa, open voice tester and speak like an Italian man",
+            "Alexa, open voice tester and talk like a French gal"
+          ],
+          "keywords": [
+            "voices",
+            "speak",
+            "speech"
+          ],
+          "name": "language tester",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/6409/e6ad9c311a9c4cc9ba69034352a3ecd7/APP_ICON?versionId=T1dJKKJo2xe1.b.IBEKUwIMnsH5OCuBw&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1544624809&Signature=5GJ9mcLbQsoqi8%2BBGObgNmE96bo%3D",
+          "description": "Let Alexa talk with various female and male voices in different languages, just say\n\"Alexa, open voice tester and speak like an Italian man\"\n\nNationalities supported: German man/woman, American man/woman, Australian man/woman, British man/woman, Indian woman, Spanish man/woman, Italian man/woman, Japanese man/woman, French man/woman\n\nSuggestions for improvement and feedback welcome via https://github.com/sgruendel/alexa-language-tester/issues/new.",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/fa1a/858bd0beeb12426fa0e96bfc632f30a8/APP_ICON_LARGE?versionId=dva5DLGGtaWXwIjW5lLJ5JenwmGYhmIS&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1544624809&Signature=SBc662SKfZ4YvLVMAofi4Do7HFI%3D"
+        },
+        "en-CA": {
+          "summary": "Alexa talks with various male and female voices in different languages",
+          "examplePhrases": [
+            "Alexa, open voice tester",
+            "Alexa, open voice tester and speak like an Italian man",
+            "Alexa, open voice tester and talk like a French gal"
+          ],
+          "keywords": [
+            "voices",
+            "speak",
+            "speech"
+          ],
+          "name": "language tester",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/6409/e6ad9c311a9c4cc9ba69034352a3ecd7/APP_ICON?versionId=T1dJKKJo2xe1.b.IBEKUwIMnsH5OCuBw&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1544624809&Signature=5GJ9mcLbQsoqi8%2BBGObgNmE96bo%3D",
+          "description": "Let Alexa talk with various female and male voices in different languages, just say\n\"Alexa, open voice tester and speak like an Italian man\"\n\nNationalities supported: German man/woman, American man/woman, Australian man/woman, British man/woman, Indian woman, Spanish man/woman, Italian man/woman, Japanese man/woman, French man/woman\n\nSuggestions for improvement and feedback welcome via https://github.com/sgruendel/alexa-language-tester/issues/new.",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/fa1a/858bd0beeb12426fa0e96bfc632f30a8/APP_ICON_LARGE?versionId=dva5DLGGtaWXwIjW5lLJ5JenwmGYhmIS&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1544624809&Signature=SBc662SKfZ4YvLVMAofi4Do7HFI%3D"
+        },
+        "en-IN": {
+          "summary": "Alexa talks with various male and female voices in different languages",
+          "examplePhrases": [
+            "Alexa, open voice tester",
+            "Alexa, open voice tester and speak like an Italian man",
+            "Alexa, open voice tester and talk like a French gal"
+          ],
+          "keywords": [
+            "voices",
+            "speak",
+            "speech"
+          ],
+          "name": "language tester",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/6409/e6ad9c311a9c4cc9ba69034352a3ecd7/APP_ICON?versionId=T1dJKKJo2xe1.b.IBEKUwIMnsH5OCuBw&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1544624809&Signature=5GJ9mcLbQsoqi8%2BBGObgNmE96bo%3D",
+          "description": "Let Alexa talk with various female and male voices in different languages, just say\n\"Alexa, open voice tester and speak like an Italian man\"\n\nNationalities supported: German man/woman, American man/woman, Australian man/woman, British man/woman, Indian woman, Spanish man/woman, Italian man/woman, Japanese man/woman, French man/woman\n\nSuggestions for improvement and feedback welcome via https://github.com/sgruendel/alexa-language-tester/issues/new.",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/fa1a/858bd0beeb12426fa0e96bfc632f30a8/APP_ICON_LARGE?versionId=dva5DLGGtaWXwIjW5lLJ5JenwmGYhmIS&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1544624809&Signature=SBc662SKfZ4YvLVMAofi4Do7HFI%3D"
+        },
+        "en-AU": {
+          "summary": "Alexa talks with various male and female voices in different languages",
+          "examplePhrases": [
+            "Alexa, open voice tester",
+            "Alexa, open voice tester and speak like an Italian man",
+            "Alexa, open voice tester and talk like a French gal"
+          ],
+          "keywords": [
+            "voices",
+            "speak",
+            "speech"
+          ],
+          "name": "language tester",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/6409/e6ad9c311a9c4cc9ba69034352a3ecd7/APP_ICON?versionId=T1dJKKJo2xe1.b.IBEKUwIMnsH5OCuBw&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1544624809&Signature=5GJ9mcLbQsoqi8%2BBGObgNmE96bo%3D",
+          "description": "Let Alexa talk with various female and male voices in different languages, just say\n\"Alexa, open voice tester and speak like an Italian man\"\n\nNationalities supported: German man/woman, American man/woman, Australian man/woman, British man/woman, Indian woman, Spanish man/woman, Italian man/woman, Japanese man/woman, French man/woman\n\nSuggestions for improvement and feedback welcome via https://github.com/sgruendel/alexa-language-tester/issues/new.",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/fa1a/858bd0beeb12426fa0e96bfc632f30a8/APP_ICON_LARGE?versionId=dva5DLGGtaWXwIjW5lLJ5JenwmGYhmIS&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1544624809&Signature=SBc662SKfZ4YvLVMAofi4Do7HFI%3D"
+        },
+        "en-GB": {
+          "summary": "Alexa talks with various male and female voices in different languages",
+          "examplePhrases": [
+            "Alexa, open voice tester",
+            "Alexa, open voice tester and speak like an Italian man",
+            "Alexa, open voice tester and talk like a French gal"
+          ],
+          "keywords": [
+            "voices",
+            "speak",
+            "speech"
+          ],
+          "name": "language tester",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/6409/e6ad9c311a9c4cc9ba69034352a3ecd7/APP_ICON?versionId=T1dJKKJo2xe1.b.IBEKUwIMnsH5OCuBw&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1544624809&Signature=5GJ9mcLbQsoqi8%2BBGObgNmE96bo%3D",
+          "description": "Let Alexa talk with various female and male voices in different languages, just say\n\"Alexa, open voice tester and speak like an Italian man\"\n\nNationalities supported: German man/woman, American man/woman, Australian man/woman, British man/woman, Indian woman, Spanish man/woman, Italian man/woman, Japanese man/woman, French man/woman\n\nSuggestions for improvement and feedback welcome via https://github.com/sgruendel/alexa-language-tester/issues/new.",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/fa1a/858bd0beeb12426fa0e96bfc632f30a8/APP_ICON_LARGE?versionId=dva5DLGGtaWXwIjW5lLJ5JenwmGYhmIS&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1544624809&Signature=SBc662SKfZ4YvLVMAofi4Do7HFI%3D"
         }
       },
       "isAvailableWorldwide": true,
