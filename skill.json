@@ -106,7 +106,7 @@
         }
       },
       "isAvailableWorldwide": true,
-      "testingInstructions": "No special requirements.",
+      "testingInstructions": "Changes to previous version (Lambda version 2):\nadd all English locales",
       "category": "EDUCATION_AND_REFERENCE",
       "distributionCountries": []
     },
