@@ -103,6 +103,7 @@ const CountryIntentHandler = {
         logger.info('country f/m value', country_f || country_m);
         var speechOutput;
         if (!country_f && !country_m) {
+            logger.error('unknown country', slots);
             speechOutput = requestAttributes.t('UNKNOWN_COUNTRY');
         } else if (country_f) {
             speechOutput =
