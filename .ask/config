@@ -3,52 +3,45 @@
     "default": {
       "skill_id": "amzn1.ask.skill.20b17a96-0109-4bf4-b17e-9a577e88fd83",
       "was_cloned": false,
+      "merge": {},
       "resources": {
         "manifest": {
-          "eTag": "c99e89e2bfb3bdd3dbf7bfc579a568de"
+          "eTag": "0f2291f0588c09c5af279337deb574ac"
         },
         "interactionModel": {
           "de-DE": {
-            "eTag": "6500496586d33a993ec9284df562f5f6"
+            "eTag": "b7b98020fe63e5b4b7186be2e00eacb4"
           },
           "en-US": {
-            "eTag": "e89e9579189d20f46ce01258e89c659a"
+            "eTag": "b543f08156515b009ddfcbd2439b87e4"
           },
           "en-CA": {
-            "eTag": "e89e9579189d20f46ce01258e89c659a"
+            "eTag": "2d1bd882447317735692855a20ce4cec"
           },
           "en-IN": {
-            "eTag": "e89e9579189d20f46ce01258e89c659a"
+            "eTag": "b5c0fefcd961d260728119366dff7e35"
           },
           "en-AU": {
-            "eTag": "e89e9579189d20f46ce01258e89c659a"
+            "eTag": "d003b43f63be88e46e70bf6b30e7c0e1"
           },
           "en-GB": {
-            "eTag": "e89e9579189d20f46ce01258e89c659a"
+            "eTag": "1dda04f1eeb8e9b20ca4995fa6cb893c"
           }
         },
         "lambda": [
           {
-            "arn": "arn:aws:lambda:eu-west-1:467353799488:function:languageTester:3",
+            "arn": "arn:aws:lambda:eu-west-1:467353799488:function:languageTester:4",
             "awsRegion": "eu-west-1",
             "functionName": "languageTester",
             "alexaUsage": [
               "custom/default"
             ],
-            "revisionId": "128ba53f-ff9b-4319-9292-2aa402a7329d"
+            "revisionId": "128ba53f-ff9b-4319-9292-2aa402a7329d",
+            "codeUri": "src",
+            "handler": "index.handler",
+            "runtime": "nodejs12.x"
           }
         ]
-      },
-      "merge": {
-        "manifest": {
-          "apis": {
-            "custom": {
-              "endpoint": {
-                "uri": "arn:aws:lambda:eu-west-1:467353799488:function:languageTester:3"
-              }
-            }
-          }
-        }
       }
     }
   }
