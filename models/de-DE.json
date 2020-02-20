@@ -4,6 +4,10 @@
       "invocationName": "sprachentester",
       "intents": [
         {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
           "name": "AMAZON.CancelIntent",
           "samples": []
         },

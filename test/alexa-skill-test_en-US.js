@@ -27,6 +27,17 @@ describe('Language Tester Skill', () => {
         ]);
     });
 
+    describe('FallbackIntent', () => {
+        alexaTest.test([
+            {
+                request: alexaTest.getIntentRequest('AMAZON.FallbackIntent'),
+                says: 'I can talk with various female and male voices in different languages, e.g. as German man/woman, American man/woman, Australian man/woman, British man/woman, Indian woman, Spanish man/woman, Italian man/woman, Japanese man/woman, French man/woman. Which voice should I use?',
+                reprompts: 'Which voice should I use: German man/woman, American man/woman, Australian man/woman, British man/woman, Indian woman, Spanish man/woman, Italian man/woman, Japanese man/woman, French man/woman?',
+                shouldEndSession: false,
+            },
+        ]);
+    });
+
     describe('HelpIntent', () => {
         alexaTest.test([
             {
