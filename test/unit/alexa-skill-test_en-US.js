@@ -31,8 +31,8 @@ describe('Language Tester Skill', () => {
         alexaTest.test([
             {
                 request: alexaTest.getIntentRequest('AMAZON.FallbackIntent'),
-                says: 'I can talk with various female and male voices in different languages, e.g. as German man/woman, American man/woman, Australian man/woman, British man/woman, Indian woman, Spanish man/woman, Italian man/woman, Japanese man/woman, French man/woman. Which voice should I use?',
-                reprompts: 'Which voice should I use: German man/woman, American man/woman, Australian man/woman, British man/woman, Indian woman, Spanish man/woman, Italian man/woman, Japanese man/woman, French man/woman?',
+                says: 'I can talk with various female and male voices in different languages, e.g. as German man or woman, American man or woman, Australian man or woman, British man or woman, Indian woman, Spanish man or woman, Italian man or woman, Japanese man or woman, French man or woman. Which voice should I use?',
+                reprompts: 'Which voice should I use: German man or woman, American man or woman, Australian man or woman, British man or woman, Indian woman, Spanish man or woman, Italian man or woman, Japanese man or woman, French man or woman?',
                 shouldEndSession: false,
             },
         ]);
@@ -42,8 +42,8 @@ describe('Language Tester Skill', () => {
         alexaTest.test([
             {
                 request: alexaTest.getIntentRequest('AMAZON.HelpIntent'),
-                says: 'I can talk with various female and male voices in different languages, e.g. as German man/woman, American man/woman, Australian man/woman, British man/woman, Indian woman, Spanish man/woman, Italian man/woman, Japanese man/woman, French man/woman. Which voice should I use?',
-                reprompts: 'Which voice should I use: German man/woman, American man/woman, Australian man/woman, British man/woman, Indian woman, Spanish man/woman, Italian man/woman, Japanese man/woman, French man/woman?',
+                says: 'I can talk with various female and male voices in different languages, e.g. as German man or woman, American man or woman, Australian man or woman, British man or woman, Indian woman, Spanish man or woman, Italian man or woman, Japanese man or woman, French man or woman. Which voice should I use?',
+                reprompts: 'Which voice should I use: German man or woman, American man or woman, Australian man or woman, British man or woman, Indian woman, Spanish man or woman, Italian man or woman, Japanese man or woman, French man or woman?',
                 shouldEndSession: false,
             },
         ]);
@@ -82,8 +82,8 @@ describe('Language Tester Skill', () => {
         alexaTest.test([
             {
                 request: alexaTest.getLaunchRequest(),
-                says: 'I can talk with various female and male voices in different languages, e.g. as German man/woman, American man/woman, Australian man/woman, British man/woman, Indian woman, Spanish man/woman, Italian man/woman, Japanese man/woman, French man/woman. Which voice should I use?',
-                reprompts: 'Which voice should I use: German man/woman, American man/woman, Australian man/woman, British man/woman, Indian woman, Spanish man/woman, Italian man/woman, Japanese man/woman, French man/woman?',
+                says: 'I can talk with various female and male voices in different languages, e.g. as German man or woman, American man or woman, Australian man or woman, British man or woman, Indian woman, Spanish man or woman, Italian man or woman, Japanese man or woman, French man or woman. Which voice should I use?',
+                reprompts: 'Which voice should I use: German man or woman, American man or woman, Australian man or woman, British man or woman, Indian woman, Spanish man or woman, Italian man or woman, Japanese man or woman, French man or woman?',
                 shouldEndSession: false,
             },
         ]);

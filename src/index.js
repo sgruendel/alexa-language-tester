@@ -35,8 +35,8 @@ const languageStrings = {
     },
     en: {
         translation: {
-            HELP_MESSAGE: 'I can talk with various female and male voices in different languages, e.g. as German man/woman, American man/woman, Australian man/woman, British man/woman, Indian woman, Spanish man/woman, Italian man/woman, Japanese man/woman, French man/woman. Which voice should I use?',
-            HELP_REPROMPT: 'Which voice should I use: German man/woman, American man/woman, Australian man/woman, British man/woman, Indian woman, Spanish man/woman, Italian man/woman, Japanese man/woman, French man/woman?',
+            HELP_MESSAGE: 'I can talk with various female and male voices in different languages, e.g. as German man or woman, American man or woman, Australian man or woman, British man or woman, Indian woman, Spanish man or woman, Italian man or woman, Japanese man or woman, French man or woman. Which voice should I use?',
+            HELP_REPROMPT: 'Which voice should I use: German man or woman, American man or woman, Australian man or woman, British man or woman, Indian woman, Spanish man or woman, Italian man or woman, Japanese man or woman, French man or woman?',
             STOP_MESSAGE: 'See you soon!',
             NATIONALITY: "Here's what %s sounds like",
             WHICH_NATIONALITY: 'Which voice should I use?',
