@@ -1,6 +1,6 @@
 {
   "name": "alexa-language-tester",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Alexa Skill to test the various voices available for speech output",
   "main": "index.js",
   "scripts": {

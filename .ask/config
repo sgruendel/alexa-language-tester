@@ -6,7 +6,7 @@
       "merge": {},
       "resources": {
         "manifest": {
-          "eTag": "0f2291f0588c09c5af279337deb574ac"
+          "eTag": "6ce7529846cf5df2295f723ffc3b0ace"
         },
         "interactionModel": {
           "de-DE": {
@@ -30,7 +30,7 @@
         },
         "lambda": [
           {
-            "arn": "arn:aws:lambda:eu-west-1:467353799488:function:languageTester:4",
+            "arn": "arn:aws:lambda:eu-west-1:467353799488:function:languageTester:5",
             "awsRegion": "eu-west-1",
             "functionName": "languageTester",
             "alexaUsage": [
