@@ -32,9 +32,9 @@
   },
   "homepage": "https://github.com/sgruendel/alexa-language-tester#readme",
   "dependencies": {
-    "ask-sdk-core": "2.8.0",
-    "ask-sdk-model": "1.28.0",
-    "i18next": "19.6.0",
+    "ask-sdk-core": "2.9.0",
+    "ask-sdk-model": "1.29.0",
+    "i18next": "19.6.2",
     "i18next-sprintf-postprocessor": "0.2.2",
     "winston": "3.3.3"
   },
