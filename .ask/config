@@ -39,7 +39,7 @@
             "revisionId": "128ba53f-ff9b-4319-9292-2aa402a7329d",
             "codeUri": "src",
             "handler": "index.handler",
-            "runtime": "nodejs12.x"
+            "runtime": "nodejs14.x"
           }
         ]
       }
