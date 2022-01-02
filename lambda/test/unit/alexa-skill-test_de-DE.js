@@ -9,7 +9,7 @@ const LIST_OF_COUNTRIES_M = 'LIST_OF_COUNTRIES_M';
 
 // initialize the testing framework
 alexaTest.initialize(
-    require('../../src/index'),
+    require('../../index'),
     'amzn1.ask.skill.20b17a96-0109-4bf4-b17e-9a577e88fd83',
     'amzn1.ask.account.VOID');
 alexaTest.setLocale('de-DE');
