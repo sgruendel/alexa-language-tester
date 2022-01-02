@@ -1,0 +1,24 @@
+{
+  "askcliStatesVersion": "2020-03-31",
+  "profiles": {
+    "default": {
+      "skillId": "amzn1.ask.skill.20b17a96-0109-4bf4-b17e-9a577e88fd83",
+      "skillMetadata": {
+        "lastDeployHash": "DFdeHgVBBI3KFZW0yxMQgmbRiYU="
+      },
+      "code": {},
+      "skillInfrastructure": {
+        "@ask-cli/lambda-deployer": {
+          "deployState": {
+            "default": {
+              "lambda": {
+                "arn": "arn:aws:lambda:eu-west-1:467353799488:function:languageTester:5",
+                "revisionId": "128ba53f-ff9b-4319-9292-2aa402a7329d"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
