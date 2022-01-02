@@ -21,12 +21,9 @@ jobs:
         node-version: '14'
         cache: 'npm'
         cache-dependency-path: lambda/package-lock.json
-    - name: CI
-      run: npm ci
+    - run: npm ci
       working-directory: lambda
-    - name: build
-      run: npm run build --if-present
+    - run: npm run build --if-present
       working-directory: lambda
-    - name: Run tests
-      run: npm test
+    - run: npm test
       working-directory: lambda
