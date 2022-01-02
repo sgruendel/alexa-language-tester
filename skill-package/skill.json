@@ -16,8 +16,8 @@
           ],
           "name": "Sprachentester",
           "description": "Dieser Skill kann mit verschiedenen weiblichen und männlichen Stimmen in unterschiedlichen Sprachen reden, Aufruf über\n\"Alexa, öffne Sprachentester und sprich als Italiener\"\n\nEs werden folgende Nationalitäten unterstützt: Deutscher oder Deutsche, Amerikaner oder Amerikanerin, Australier oder Australierin, Brite oder Britin, Inderin, Spanier oder Spanierin, Italiener oder Italienerin, Japaner oder Japanerin, Franzose oder Französin\n\nVerbesserungsvorschläge und Feedback gerne unter https://github.com/sgruendel/alexa-language-tester/issues/new.",
-          "smallIconUri": "file://assets/images/small_icon.png",
-          "largeIconUri": "file://assets/images/large_icon.jpg"
+          "smallIconUri": "file://assets/small_icon.png",
+          "largeIconUri": "file://assets/large_icon.png"
         },
         "en-US": {
           "summary": "Alexa talks with various male and female voices in different languages",
@@ -33,8 +33,8 @@
           ],
           "name": "Language Tester",
           "description": "Let Alexa talk with various female and male voices in different languages, just say\n\"Alexa, open Language Tester and speak like an Italian man\"\n\nNationalities supported: German man/woman, American man/woman, Australian man/woman, British man/woman, Indian woman, Spanish man/woman, Italian man/woman, Japanese man/woman, French man/woman\n\nSuggestions for improvement and feedback welcome via https://github.com/sgruendel/alexa-language-tester/issues/new.",
-          "smallIconUri": "file://assets/images/small_icon.png",
-          "largeIconUri": "file://assets/images/large_icon.jpg"
+          "smallIconUri": "file://assets/small_icon.png",
+          "largeIconUri": "file://assets/large_icon.png"
         },
         "en-CA": {
           "summary": "Alexa talks with various male and female voices in different languages",
@@ -50,8 +50,8 @@
           ],
           "name": "Language Tester",
           "description": "Let Alexa talk with various female and male voices in different languages, just say\n\"Alexa, open Language Tester and speak like an Italian man\"\n\nNationalities supported: German man/woman, American man/woman, Australian man/woman, British man/woman, Indian woman, Spanish man/woman, Italian man/woman, Japanese man/woman, French man/woman\n\nSuggestions for improvement and feedback welcome via https://github.com/sgruendel/alexa-language-tester/issues/new.",
-          "smallIconUri": "file://assets/images/small_icon.png",
-          "largeIconUri": "file://assets/images/large_icon.jpg"
+          "smallIconUri": "file://assets/small_icon.png",
+          "largeIconUri": "file://assets/large_icon.png"
         },
         "en-IN": {
           "summary": "Alexa talks with various male and female voices in different languages",
@@ -67,8 +67,8 @@
           ],
           "name": "Language Tester",
           "description": "Let Alexa talk with various female and male voices in different languages, just say\n\"Alexa, open Language Tester and speak like an Italian man\"\n\nNationalities supported: German man/woman, American man/woman, Australian man/woman, British man/woman, Indian woman, Spanish man/woman, Italian man/woman, Japanese man/woman, French man/woman\n\nSuggestions for improvement and feedback welcome via https://github.com/sgruendel/alexa-language-tester/issues/new.",
-          "smallIconUri": "file://assets/images/small_icon.png",
-          "largeIconUri": "file://assets/images/large_icon.jpg"
+          "smallIconUri": "file://assets/small_icon.png",
+          "largeIconUri": "file://assets/large_icon.png"
         },
         "en-AU": {
           "summary": "Alexa talks with various male and female voices in different languages",
@@ -84,8 +84,8 @@
           ],
           "name": "Language Tester",
           "description": "Let Alexa talk with various female and male voices in different languages, just say\n\"Alexa, open Language Tester and speak like an Italian man\"\n\nNationalities supported: German man/woman, American man/woman, Australian man/woman, British man/woman, Indian woman, Spanish man/woman, Italian man/woman, Japanese man/woman, French man/woman\n\nSuggestions for improvement and feedback welcome via https://github.com/sgruendel/alexa-language-tester/issues/new.",
-          "smallIconUri": "file://assets/images/small_icon.png",
-          "largeIconUri": "file://assets/images/large_icon.jpg"
+          "smallIconUri": "file://assets/small_icon.png",
+          "largeIconUri": "file://assets/large_icon.png"
         },
         "en-GB": {
           "summary": "Alexa talks with various male and female voices in different languages",
@@ -101,8 +101,8 @@
           ],
           "name": "Language Tester",
           "description": "Let Alexa talk with various female and male voices in different languages, just say\n\"Alexa, open Language Tester and speak like an Italian man\"\n\nNationalities supported: German man/woman, American man/woman, Australian man/woman, British man/woman, Indian woman, Spanish man/woman, Italian man/woman, Japanese man/woman, French man/woman\n\nSuggestions for improvement and feedback welcome via https://github.com/sgruendel/alexa-language-tester/issues/new.",
-          "smallIconUri": "file://assets/images/small_icon.png",
-          "largeIconUri": "file://assets/images/large_icon.jpg"
+          "smallIconUri": "file://assets/small_icon.png",
+          "largeIconUri": "file://assets/large_icon.png"
         }
       },
       "isAvailableWorldwide": true,
